@@ -1,15 +1,15 @@
-# ML_Loan_Prediction_Model
+#ML_Loan_Prediction_Model
 By: Damien Crim, Grifin Racey, Andrew Voortman, Luke Payne, and Amanda Baynard
 
-### Proposal/Ideation
+###Proposal/Ideation
 
 Our end goal is to build a machine learning model that will find out which people are approved to get a loan or not based on our prediction (Loan_Status - Loan approved (Y/N)). The other following columns (below) will be factored in to determine if said people are approved or not.
 
-### Data fetching/API integration
+###Data fetching/API integration
 
 Kaggle.com "train_u6lujuX_CVtuZ9i.csv"
 
-### Data Analysis
+###Data Analysis
 Numpy, Pandas, matplotlib, seaborn, sklearn, Tableau
 
 Prediction dataset has:
@@ -38,11 +38,11 @@ Loan Data Factors:
 Filter out the "null values" for each of the categories that correlate to the loan status of "yes"
 
 
-### Building the Machine Learning Model
+###Building the Machine Learning Model
 Images of building code
 
 
-### Testing
+###Testing
 Simple Logistic Regression
     Accuracy: XX% for Training and xx% for Testing
 
@@ -66,7 +66,7 @@ Testing Outcome
     Y: 
     N:
 
-### Creating documentation
+###Creating documentation
 Tableau / ReadMe
 
 Powerpoint
