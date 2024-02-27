@@ -69,7 +69,8 @@ Update the Dependents Column with values
     ![Dependent Change](<Married with Dependents Null Change.png>)
 
 Update LoanAmount and Credit_History columns with K Nearest Neighbor
-    [Loan Amount and Credit History Change](<Credit History and Loan Amount Change.png>)
+   ![Credit History and Loan Amount Change](https://github.com/andrew-voortman/ML_Loan_Prediction_Model/assets/143106240/49cf9690-54a3-42a5-8bc0-60f0f89360e0)
+
 
 
 ### Encoding the data as numerical
