@@ -33,71 +33,63 @@ Loan Data Factors:
 13 . Loan_Status - Loan approved (Y/N)
 
 Descriptive Analysis
+
 ![Descriptive Analysis](<Train Data Descriptive Analysis.png>)
 
+
 Filter out the "null values" for each of the categories that correlate to the loan status of "yes"
+
 ![Null Values](<Null Values.png>)
 
-##Reviewed for imbalanced dataset
+##Reviewed for imbalanced dataset                                              
+
 ![Loan Status Balance](<Loan Status balance.png>)
 
 
 ### How we changed the data to be balanced better:
 
 Droping Loan_ID Column, ApplicantIncome and CoapplicantIncome (after combining incomes)
-    ![Drop](<Drop Columns.png>)
-
+![Drop](<Drop Columns.png>)
 Dropping all Null values for Gender and Married Columns
-    ![Null Removal](<Gender and Marrried Null Removal.png>)
-
+![Null Removal](<Gender and Marrried Null Removal.png>)
 Change Nulls to Not Self Employed for the Self_Employed Column
-    ![Self Employed Null](<Self Employed Null Encoding.png>)
-
+![Self Employed Null](<Self Employed Null Encoding.png>)
 Combine ApplicantIncome and CoapplicantIncome
-    ![Combine Income](<Income Combination.png>)
-
+![Combine Income](<Income Combination.png>)
 Change Null to 360 for Loan_Amount_Term
-    ![Loan Term Conversion](<360 Conversion.png>)
-
+![Loan Term Conversion](<360 Conversion.png>)
 Update the Dependents Column with values
-    ![Dependent Change](<Married with Dependents Null Change.png>)
-
+![Dependent Change](<Married with Dependents Null Change.png>)
 Update LoanAmount and Credit_History columns with K Nearest Neighbor
-    ![Loan Amount and Credit History Change](<Credit History and Loan Amount Change.png>)
+![Loan Amount and Credit History Change](<Credit History and Loan Amount Change.png>)
 
-
-### Encoding the data as numerical
+##Encode the data as numerical
 Gender
-    Female: 1
-    Male/Other: 0
+- Female: 1
+- Male/Other: 0
 
 Marriage
-    Marriage = Yes: 1
-    Marriage = No: 0
+- Marriage = Yes: 1
+- Marriage = No: 0
 
 Education
-    Graduate: 1
-    Not Graduate: 0
+- Graduate: 1
+- Not Graduate: 0
 
 Self Employed
-    Self Employed = Yes: 1
-    Self Employed = No: 0
+- Self Employed = Yes: 1
+- Self Employed = No: 0
 
 Dependents & Property Area
     Change type to Integer
 
-## Building the Machine Learning Model
+    
 
-Explain how to run the automated tests for this system
+###Building the Machine Learning Model
+Images of building code
 
-### Testing
 
-Explain what these tests test and why
-
-    Give an example
-
-### Logistic Regression
-
+###Testing
 Simple Logistic Regression
     
     Accuracy: XX% for Training and xx% for Testing
