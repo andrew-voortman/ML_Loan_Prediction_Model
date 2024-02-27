@@ -50,20 +50,26 @@ Filter out the "null values" for each of the categories that correlate to the lo
 
 Droping Loan_ID Column, ApplicantIncome and CoapplicantIncome (after combining incomes)
 ![Drop](<Drop Columns.png>)
-Dropping all Null values for Gender and Married Columns
+
+Dropping all Null values for Gender and Married Columns                                                                                                             
 ![Null Removal](<Gender and Marrried Null Removal.png>)
-Change Nulls to Not Self Employed for the Self_Employed Column
+
+Change Nulls to Not Self Employed for the Self_Employed Column                                                    
 ![Self Employed Null](<Self Employed Null Encoding.png>)
-Combine ApplicantIncome and CoapplicantIncome
+
+Combine ApplicantIncome and CoapplicantIncome                                                                    
 ![Combine Income](<Income Combination.png>)
-Change Null to 360 for Loan_Amount_Term
+
+Change Null to 360 for Loan_Amount_Term                                                            
 ![Loan Term Conversion](<360 Conversion.png>)
-Update the Dependents Column with values
+
+Update the Dependents Column with values                                                              
 ![Dependent Change](<Married with Dependents Null Change.png>)
-Update LoanAmount and Credit_History columns with K Nearest Neighbor
+
+Update LoanAmount and Credit_History columns with K Nearest Neighbor                                                                
 ![Loan Amount and Credit History Change](<Credit History and Loan Amount Change.png>)
 
-##Encode the data as numerical
+## Encode the data as numerical
 Gender
 - Female: 1
 - Male/Other: 0
@@ -81,15 +87,15 @@ Self Employed
 - Self Employed = No: 0
 
 Dependents & Property Area
-    Change type to Integer
+- Change type to Integer
 
     
 
-###Building the Machine Learning Model
+### Building the Machine Learning Model
 Images of building code
 
 
-###Testing
+### Testing
 Simple Logistic Regression
     
     Accuracy: XX% for Training and xx% for Testing
@@ -113,7 +119,7 @@ Image of Simple Decision Tree @ various max_depths
     Image
 
 
-Test Data Predictions:
+## Test Data Predictions:
     
 Prediction table images
 
@@ -121,7 +127,7 @@ Testing Outcome
     Y: 
     N:
 
-###Creating documentation
+### Creating documentation
 Tableau / ReadMe
 
 Powerpoint
