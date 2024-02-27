@@ -41,7 +41,7 @@ Filter out the "null values" for each of the categories that correlate to the lo
 
 ![Null Values](<Null Values.png>)
 
-##Reviewed for imbalanced dataset
+##Reviewed for imbalanced dataset                                              
 
 ![Loan Status Balance](<Loan Status balance.png>)
 
@@ -52,20 +52,20 @@ Droping Loan_ID Column, ApplicantIncome and CoapplicantIncome (after combining i
     ![Drop](<Drop Columns.png>)
     
 
-Dropping all Null values for Gender and Married Columns
+Dropping all Null values for Gender and Married Columns                                               
     ![Null Removal](<Gender and Marrried Null Removal.png>)
     
 
-Change Nulls to Not Self Employed for the Self_Employed Column
+Change Nulls to Not Self Employed for the Self_Employed Column                                            
     ![Self Employed Null](<Self Employed Null Encoding.png>)
 
-Combine ApplicantIncome and CoapplicantIncome
+Combine ApplicantIncome and CoapplicantIncome                                                            
     ![Combine Income](<Income Combination.png>)
 
-Change Null to 360 for Loan_Amount_Term
+Change Null to 360 for Loan_Amount_Term                                                                            
     ![Loan Term Conversion](<360 Conversion.png>)
 
-Update the Dependents Column with values
+Update the Dependents Column with values                                                                  
     ![Dependent Change](<Married with Dependents Null Change.png>)
 
 Update LoanAmount and Credit_History columns with K Nearest Neighbor
