@@ -75,23 +75,23 @@ Update LoanAmount and Credit_History columns with K Nearest Neighbor
 
 ### Encoding the data as numerical
 Gender
-    Female: 1
-    Male/Other: 0
+- Female: 1
+- Male/Other: 0
 
 Marriage
-    Marriage = Yes: 1
-    Marriage = No: 0
+- Marriage = Yes: 1
+- Marriage = No: 0
 
 Education
-    Graduate: 1
-    Not Graduate: 0
+- Graduate: 1
+- Not Graduate: 0
 
 Self Employed
-    Self Employed = Yes: 1
-    Self Employed = No: 0
+- Self Employed = Yes: 1
+- Self Employed = No: 0
 
 Dependents & Property Area
-    Change type to Integer
+- Change type to Integer
 
 ## Building the Machine Learning Model
 
