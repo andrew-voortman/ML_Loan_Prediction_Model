@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import pandas as pd
 
 app = Flask(__name__)
-df = pd.read_csv('your_data.csv')
+df = pd.read_csv('./predictions.csv')
 
 @app.route('/get_loan_status', methods=['POST'])
 def get_loan_status():
