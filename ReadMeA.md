@@ -104,9 +104,11 @@ Neural Network
 - ![6-Layer](image-3.png)
 
 Logistic Regression                                                                                               
-- Scikit: ![Logistic Regression](image.png)                                                                    
+- Scikit:                                                                                                      
+  ![Logistic Regression](image.png)                                                                    
 
-- Pycaret: ![ROC Curve](image-1.png)                                                                             
+- Pycaret:                                                                                               
+ ![ROC Curve](image-1.png)                                                                             
 
 Random Forest Classifier                                                                                    
 - ![Random Forest](image-5.png)                                                                        
